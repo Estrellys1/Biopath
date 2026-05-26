@@ -1,7 +1,6 @@
-
 import streamlit as st
 
-# 1. CONFIGURACIÓN DE LA PÁGINA
+# 1. CONFIGURACIÓN DE LA PÁGINA (Debe ser el primer comando de Streamlit)
 st.set_page_config(
     page_title="BioPath-Sentinel AI",
     page_icon="🧬",
@@ -141,10 +140,10 @@ with col1:
 with col2:
     st.markdown("""
     <div class="product-card">
-        <span class="product-badge">🏢 INFRAESTRUCTURA HOSPITALARIA</span>
+        <span class="product-badge">INFRAESTRUCTURA HOSPITALARIA</span>
         <h2 style='color: #ffffff; margin-top:0;'>BioPath HCE Enterprise</h2>
         <p style='color: #22d3ee; font-style: italic; font-size: 18px;'>
-            "Gestión clínica Multi-tenant: el corazón operativo de tu institution."
+            "Gestión clínica Multi-tenant: el corazón operativo de tu institución."
         </p>
         <p style='color: #94a3b8; font-size: 16px; text-align: justify;'>
             La suite integral de Historia Clínica Electrónica (HCE) avanzada basada en <b>FastAPI</b>. Diseñada bajo arquitectura <b>Multi-tenant</b> para clínicas e IPS, permitiendo que múltiples instituciones operen de forma centralizada pero con absoluto aislamiento de datos. Integra consulta, farmacia, laboratorios y facturación en un entorno blindado.
@@ -185,7 +184,7 @@ with col_f1:
 with col_f2:
     st.markdown("""
     <div class="future-card">
-        <span class="future-badge">🧪 ENDOCRINOLOGÍA</span>
+        <span class="future-badge">ENDOCRINOLOGÍA</span>
         <h4 style='color: #ffffff; margin: 5px 0;'>HiSalud Metabólica</h4>
         <p style='color: #94a3b8; font-size: 14px; margin-bottom: 0;'>
             Evaluación integral de síndrome metabólico, combinando métricas de peso, lípidos y perfiles genómicos preliminares.
